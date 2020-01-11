@@ -5,7 +5,7 @@
 		<section>
 
 			<h1 class="cats-menu">All News + Blog Categories<div id="trapezoid"></div></h1>
-			
+
 			<?php get_template_part('loop'); ?>
 
 			<?php get_template_part('pagination'); ?>

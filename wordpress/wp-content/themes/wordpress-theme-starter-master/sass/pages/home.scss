@@ -1,4 +1,5 @@
 .home {
+  overflow-x: hidden;
   background-color: #2A2A2A;
   font-family: $font;
   h1 {
@@ -38,7 +39,7 @@
     //Used blank png to contain size of background-image: url() and add alt text
     width: 100%;
   }
-  .placeholder { 
+  .placeholder {
     position: relative;
     //Used inline style background-image: url() to dynamically pull in feature image
     background-position: 0 calc(100% - 68%);
@@ -86,7 +87,7 @@
     a:hover {
       color: $blue;
       text-decoration: none;
-    } 
+    }
   }
 
   .byline-date {
@@ -99,9 +100,23 @@
     a:hover {
       color: $blue;
       text-decoration: none;
-    } 
+    }
   }
   ul {
     padding-inline-start: unset;
   }
+  .profile-picture {
+    width: 100%;
+    height: 95%;
+  }
+  .flex-wrap {
+    padding: 0;
+    .col-8 {
+      padding: 0;
+    }
+    .col-1 {
+      padding: 0;
+    }
+  }
+
 }
